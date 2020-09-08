@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.523f09c5.chunk.css",
+    "main.js": "./static/js/main.d2d671f3.chunk.js",
+    "main.js.map": "./static/js/main.d2d671f3.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.1314c47f.js",
+    "runtime-main.js.map": "./static/js/runtime-main.1314c47f.js.map",
+    "static/js/2.64fc8d30.chunk.js": "./static/js/2.64fc8d30.chunk.js",
+    "static/js/2.64fc8d30.chunk.js.map": "./static/js/2.64fc8d30.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.0897f1b5f33a70cd7aeec81e5d86f026.js": "./precache-manifest.0897f1b5f33a70cd7aeec81e5d86f026.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.523f09c5.chunk.css.map": "./static/css/main.523f09c5.chunk.css.map",
+    "static/js/2.64fc8d30.chunk.js.LICENSE.txt": "./static/js/2.64fc8d30.chunk.js.LICENSE.txt",
+    "static/media/ToU_PP_OPUS.pdf": "./static/media/ToU_PP_OPUS.fda56d6d.pdf",
+    "static/media/icon.ico": "./static/media/icon.e963f229.ico",
+    "static/media/tcimg.png": "./static/media/tcimg.d9c27653.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1314c47f.js",
+    "static/js/2.64fc8d30.chunk.js",
+    "static/css/main.523f09c5.chunk.css",
+    "static/js/main.d2d671f3.chunk.js"
+  ]
+}
