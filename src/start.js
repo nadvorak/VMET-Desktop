@@ -12,10 +12,13 @@ function createWindow() {
     width: 800,
     height: 600,
     title: "OPUS",
-    icon: path.join(__dirname, '/../icon.ico'),
+    icon: path.join(__dirname, '/../public/icon.ico'),
+    // NOTE:Dirctory below is for packaing
+    // icon: path.join(__dirname, '/../icon.ico'),
     webPreferences: {
       nodeIntegration: true,
-      devTools: false
+      // NOTE:Dsiable devTools when shipping
+      // devTools: false
     }
   })
 
@@ -25,7 +28,9 @@ function createWindow() {
   mainWindow.loadURL(
     process.env.ELECTRON_START_URL ||
       url.format({
-        pathname: path.join(__dirname, '/../index.html'),
+        pathname: path.join(__dirname, '/../public/index.html'),
+        // NOTE:Dirctory below is for packaing
+        // pathname: path.join(__dirname, '/../index.html'),
         protocol: 'file:',
         slashes: true
       })
@@ -72,8 +77,8 @@ ipcMain.on('START_BACKGROUND_VIA_MAIN', (event, args) => {
 		slashes: true,
 	});
 	hiddenWindow = new BrowserWindow({
-    show: false,
     // Hide this window for realse
+    // show: false,
     width: 800,
     height: 600,
 		webPreferences: {

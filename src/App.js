@@ -23,7 +23,6 @@ import HighlightOffIcon from '@material-ui/icons/HighlightOff';
 import { createMuiTheme } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/styles';
 import logo from './icon.ico';
-import tcimg from './tcimg.png';
 import ReactPlayer from 'react-player';
 import './App.css';
 import ToU from './ToU_PP_OPUS.pdf';

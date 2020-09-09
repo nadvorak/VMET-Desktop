@@ -14,9 +14,6 @@
 # package
 /dist
 
-# python originals
-/pythonfiles/*
-
 # compressed
 *.7z
 
